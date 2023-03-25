@@ -31,15 +31,13 @@ header {
 }
 
 #logo {
-  color: #6070ff;
-}
-
-#logo {
   font-size: 18px;
   font-weight: 700;
   line-height: 20px;
   text-decoration: none;
+  color: #6070ff;
 }
+
 
 .stake {
   position: absolute;
