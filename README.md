@@ -1,4 +1,35 @@
+# Portfolio 
 <a name="readme-top"></a>
+
+<!--
+HOW TO USE:
+This is an example of how you may give instructions on setting up your project locally.
+
+Modify this file to match your project and remove sections that don't apply.
+
+REQUIRED SECTIONS:
+- Table of Contents
+- About the Project
+  - Built With
+  - Live Demo
+- Getting Started
+- Authors
+- Future Features
+- Contributing
+- Show your support
+- Acknowledgements
+- License
+
+OPTIONAL SECTIONS:
+- FAQ
+
+After you're finished please remove all the comments and instructions!
+-->
+<div align="center">
+  <!-- You are encouraged to replace this logo with your own! Otherwise you can also remove it. -->
+  <h3><b>Portfolio Project Readme</b></h3>
+
+</div>
 
 # 📗 Table of Contents
 
@@ -21,7 +52,6 @@
 - [🙏 Acknowledgements](#acknowledgements)
 - [📝 License](#license)
 
-
 # 📖 [Portfolio-Project] <a name="about-project"></a>
 
 
@@ -30,7 +60,6 @@
 ## 🛠 Built With <a name="built-with"></a>
 
 ### Tech Stack <a name="tech-stack"></a>
-
 
 <details>
   <summary>HTML</summary>
@@ -52,22 +81,20 @@
 In this project, we have implemented responsive design to ensure that our application looks and functions correctly across various devices and screen sizes. This project uses a Mobile-first approach to ensure that it works responsive with smaller screen and scale up to meet the need of larger screens.
 We have achieved this through the use of media queries and flexible layouts, which adapt to the user's device and provide them with an optimal viewing experience. 
 
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+<!-- LIVE DEMO -->
+## 🚀 Live Demo <a name="live-demo"></a>
+
+You can visit the live website over here
+- [Live Demo Link](https://moyasiginko.github.io/Portfolio-Site/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-
-
-
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
+<!-- GETTING STARTED -->
 ## 💻 Getting Started <a name="getting-started"></a>
 
-
 To get a local copy up and running, follow these steps.
-
 
 ### Prerequisites
 
@@ -79,15 +106,15 @@ Install <a href="https://code.visualstudio.com/download">VS Code</a>
 
 Clone this repository to your desired folder:
 
-cd my-folder
-
+```sh
+  cd my-folder
+  git clone https://github.com/MoyasiGinko/Portfolio-Site.git
+```
+--->
 
 ### Install
 
-Install this project with:
-
-  cd my-folder
-  git clone https://github.com/MoyasiGinko/Portfolio-Project.git
+To install this project, set up linter by installing the following in project directory:
 
 Terminal commands:
 
@@ -100,60 +127,58 @@ Terminal commands:
 ### Usage
 
 To run the project, execute the following command:
+
 Open liveserver in VS Code
 or,
 Double-Click on the "index.html" file to open the web page.
 
-### Run tests
-
-To run tests, run the following command: Not Applicable
-
-
-### Deployment
-
-This project is deployed using GitHub Pages.
-
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+<!-- AUTHORS -->
 ## 👥 Authors <a name="authors"></a>
 
 👤 **@Metaverse-Moyasi**
 
 - GitHub: [@Metaverse-Moyasi](https://github.com/MoyasiGinko)
 - LinkedIn: [@mahmudur-rahman-a8a151257](https://www.linkedin.com/in/mahmudur-rahman-a8a151257/)
-
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
+- Twitter: [@moyasi_ginko](https://twitter.com/moyasi_ginko)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+<!-- FUTURE FEATURES -->
+## 🔭 Future Features <a name="future-features"></a>
 
+- [ ] **[Desktop Version**
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- CONTRIBUTING -->
 ## 🤝 Contributing <a name="contributing"></a>
 
 Contributions, issues, and feature requests are welcome!
 
+Feel free to check the [issues page](../../issues/).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-## ⭐️ Show your support <a name="support"></a>
+<!-- SUPPORT -->
 
+## ⭐️ Show your support <a name="support"></a>
 
 If you like this project then please give it a star and share with the person who is in need of this project.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-
+<!-- ACKNOWLEDGEMENTS -->
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-I would like to thank the following individuals and resources for their contributions to this project:
+I would like to thank the following individuals, specially Daniela Moreno and the resources for their contributions to this project:
 #### Microverse: 
 Thank you for providing valuable feedback and suggestions throughout the development process.
 #### Microverse Dashboard: 
 The documentation and tutorials provided by this resource were extremely helpful in understanding the concepts and techniques used in this project.
 #### GitHub: 
-The GitHub Repo used in this project was instrumental in achieving Linters installation, and we are grateful for the hard work put in by the developers.
+The GitHub Repo used in this project was instrumental in achieving Linters installation.
 #### Code Reviewer: 
 The Code Reviewer provided support and encouragement throughout the development process, and we are grateful for their continued support.
 
@@ -161,10 +186,9 @@ Without the help of these individuals and resources, this project would not have
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-
+<!-- LICENSE -->
 ## 📝 License <a name="license"></a>
 
 This project is [MIT](./LICENSE.md) licensed.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
