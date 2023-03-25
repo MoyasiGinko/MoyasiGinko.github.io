@@ -1,0 +1,137 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap");
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #f7f7f9;
+}
+
+header,
+.main-content-intro {
+  padding: 0 24px;
+}
+
+header,
+.main-container {
+  background-color: #fff;
+}
+
+header {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+#logo {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 20px;
+  text-decoration: none;
+  color: #6070ff;
+}
+
+.stake {
+  position: absolute;
+  right: 20px;
+  z-index: 10;
+  cursor: pointer;
+  width: 20px;
+  height: 20px;
+  background: none;
+  border: none;
+}
+
+.stake-top,
+.stake-middle,
+.stake-bottom {
+  position: absolute;
+  width: 20px;
+  height: 2px;
+  top: 0;
+  left: 0;
+  background-color: #6070ff;
+  transition: all 0.5s;
+}
+
+.stake-middle {
+  transform: translateY(5px);
+}
+
+.stake-bottom {
+  transform: translateY(10px);
+}
+
+/* Transition stake to X when open */
+.open {
+  transform: rotate(90deg);
+}
+
+.open .stake-top {
+  transform: rotate(45deg) translateY(6px) translateX(6px);
+  background-color: #fff;
+}
+
+.open .stake-middle {
+  display: none;
+}
+
+.open .stake-bottom {
+  transform: rotate(-45deg) translateY(6px) translateX(-6px);
+  background-color: #fff;
+}
+
+/* main section */
+.main-container {
+  height: 600px;
+  display: flex;
+  align-items: center;
+  background-image: url("asset/header-bg.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-bottom-left-radius: 80px;
+}
+
+.main-container h1 {
+  font-size: 40px;
+  font-weight: 700px;
+  line-height: 52px;
+  color: #172b4d;
+  margin-bottom: 10px;
+}
+
+.main-content-intro p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #344563;
+  margin-bottom: 10px;
+}
+
+#social-heading {
+  text-decoration: none;
+  color: #7f8cff;
+  text-transform: uppercase;
+  margin-bottom: 8px;
+}
+
+.social__icons ul {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+}
+
+.social__icons ul li {
+  margin-right: 15px;
+}
+
+.main-content-intro > div {
+  overflow-wrap: break-word;
+}
