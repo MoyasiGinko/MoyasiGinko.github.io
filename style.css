@@ -116,6 +116,7 @@ header {
 }
 
 #social-heading {
+  text-decoration: none;
   color: #7f8cff;
   text-transform: uppercase;
   margin-bottom: 8px;
