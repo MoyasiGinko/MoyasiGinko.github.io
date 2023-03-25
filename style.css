@@ -38,7 +38,6 @@ header {
   color: #6070ff;
 }
 
-
 .stake {
   position: absolute;
   right: 20px;
@@ -132,6 +131,6 @@ header {
   margin-right: 15px;
 }
 
-.main-content-intro>div {
+.main-content-intro > div {
   overflow-wrap: break-word;
 }
