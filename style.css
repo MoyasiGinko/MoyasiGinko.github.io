@@ -132,6 +132,6 @@ header {
   margin-right: 15px;
 }
 
-.main-content-intro > div {
+.main-content-intro>div {
   overflow-wrap: break-word;
 }
