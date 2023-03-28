@@ -18,7 +18,7 @@ header,
 }
 
 header,
-.main-container
+.main-container,
 .items {
   background-color: #fff;
 }
@@ -152,6 +152,7 @@ header {
   padding-bottom: 50px;
 }
 
+.main-container,
 .items {
   display: flex;
   flex-direction: column;
