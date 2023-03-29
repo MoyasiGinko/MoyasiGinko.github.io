@@ -384,7 +384,7 @@ header {
   .main-content-intro {
     width: 70%;
   }
-}
+
   /* Card Section */
 
   .card__container {
@@ -483,6 +483,7 @@ header {
     margin-left: 0;
     margin-top: 10px;
   }
+}
 
 /* laptop L 1440px */
 
