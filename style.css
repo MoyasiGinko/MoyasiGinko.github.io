@@ -130,6 +130,9 @@ header {
 }
 
 .social__icons ul {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  margin-left: 10px;
   list-style-type: none;
   display: flex;
   flex-direction: row;
