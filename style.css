@@ -130,6 +130,9 @@ header {
 }
 
 .social__icons ul {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  margin-left: 10px;
   list-style-type: none;
   display: flex;
   flex-direction: row;
@@ -525,5 +528,100 @@ header {
 
   .card__skills ul li {
     font-size: 15px;
+  }
+}
+
+/* Form section */
+#form-section {
+  background-color: white;
+}
+
+#contact-container {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  padding: 90px 24px 45px 24px;
+  background-image: url(./asset/form-shapes.svg);
+  background-position: right;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-color: #6070ff;
+  border-top-left-radius: 80px;
+}
+
+#form ul {
+  list-style: none;
+}
+
+#contact-container h2 {
+  color: white;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+#contact-container p {
+  color: #ebebff;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+  text-align: center;
+}
+
+#form input,
+#form textarea {
+  width: 100%;
+  border-radius: 8px;
+  border: none;
+}
+
+#form input {
+  height: 48px;
+  padding: 10px;
+  margin-bottom: 20px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 20px;
+}
+
+#form textarea {
+  padding: 15px 38px 15px 16px;
+  height: 170px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+}
+
+#form button {
+  background-color: white;
+}
+
+#form .btn:hover {
+  background-color: #6070ff;
+  color: white;
+  border: 1px solid white;
+}
+
+#form .btn:active {
+  background-color: #2230d2;
+}
+
+@media (min-width: 768px) {
+  #contact-container {
+    padding: 12% 30%;
+    background-image: url(./asset/contact-form-bg-desktop.svg);
+    background-size: 94%;
+    background-position: 60% 30%;
+  }
+
+  #btn-container {
+    display: flex;
+    justify-content: center;
   }
 }
