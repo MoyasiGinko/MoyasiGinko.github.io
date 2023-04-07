@@ -240,7 +240,7 @@ header {
 
 .btn-about {
   border: 1px solid #6070ff;
-  color: #396DF2;
+  color: #396df2;
 }
 
 .btn-form {
@@ -275,7 +275,7 @@ header {
 }
 
 .btn {
-  color: #396DF2;
+  color: #396df2;
   background: transparent;
   padding: 12px;
   margin-top: 25px;
@@ -290,7 +290,7 @@ header {
   flex-direction: row;
   align-items: center;
   gap: 10px;
-  top: calc(50% - 48px/2);
+  top: calc(50% - 48px / 2);
 }
 
 .btn:hover {
@@ -365,17 +365,8 @@ header {
   font-weight: 500;
 }
 
-.skill__item p,
-.skill__item bottom-bar p {
-  color: #344563;
-}
-
-.language__item p {
-  margin-left: 15px;
-  color: #253858;
-  font-size: 15px;
-  font-weight: 500;
-  line-height: 20px;
+.language__item {
+  list-style: none;
 }
 
 .bottom-bar {
@@ -626,6 +617,10 @@ header {
   .language__item p {
     margin-left: 0;
     margin-top: 10px;
+  }
+
+  #skill-item-color p {
+    color: #344563;
   }
 
   #contact-container {
