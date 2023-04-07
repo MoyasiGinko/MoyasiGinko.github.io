@@ -152,11 +152,11 @@ header {
 
 /* card-section */
 .card__container {
-  display: grid;
-  grid-template-rows: auto auto auto auto;
-  row-gap: 60px;
-  padding-top: 50px;
-  padding-bottom: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 114px 24px;
+  gap: 88px;
 }
 
 .main-container,
@@ -238,12 +238,47 @@ header {
   margin-left: 30px;
 }
 
-.btn {
+.btn-about {
+  border: 1px solid #6070ff;
+  color: #396DF2;
+}
+
+.btn-form {
+  border: 1px solid #fff;
   color: #6070ff;
+}
+
+#btn-container {
   background: transparent;
   font-family: 'Poppins', sans-serif;
   font-style: normal;
   padding: 12px;
+  border-radius: 8px;
+  font-size: 17px;
+  font-weight: 500;
+  line-height: 24px;
+  cursor: pointer;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
+}
+
+#btn-container:hover {
+  background-color: #6070ff;
+  color: #fff;
+}
+
+#btn-container:active {
+  background-color: #2230d2;
+}
+
+.btn {
+  color: #396DF2;
+  background: transparent;
+  padding: 12px;
+  margin-top: 25px;
   border: 1px solid #6070ff;
   border-radius: 8px;
   font-size: 17px;
@@ -255,6 +290,7 @@ header {
   flex-direction: row;
   align-items: center;
   gap: 10px;
+  top: calc(50% - 48px/2);
 }
 
 .btn:hover {
@@ -327,6 +363,11 @@ header {
   padding: 24px 12px;
   font-size: 20px;
   font-weight: 500;
+}
+
+.skill__item p,
+.skill__item bottom-bar p {
+  color: #344563;
 }
 
 .language__item p {
@@ -487,7 +528,11 @@ header {
   /* Card Section */
 
   .card__container {
-    padding: 9%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 142px;
+    gap: 142px;
   }
 
   .items {
@@ -509,19 +554,19 @@ header {
   }
 
   .card-1 {
-    order: 4;
-  }
-
-  .card-2 {
-    order: 3;
-  }
-
-  .card-3 {
     order: 1;
   }
 
-  .card-4 {
+  .card-2 {
     order: 2;
+  }
+
+  .card-3 {
+    order: 3;
+  }
+
+  .card-4 {
+    order: 4;
   }
 
   .card-2,
@@ -531,7 +576,7 @@ header {
 
   /* About Section */
   .about__container {
-    grid-template-columns: 45% 55%;
+    grid-template-columns: 40% 60%;
     padding: 9%;
     column-gap: 15px;
   }
@@ -590,9 +635,15 @@ header {
     background-position: 60% 30%;
   }
 
-  #btn-container {
+  .btn-form {
     display: flex;
-    justify-content: center;
+    flex-direction: row;
+    margin: auto;
+    margin-top: 27px;
+    border-radius: 8px;
+    align-items: center;
+    text-align: center;
+    padding: 12px 16px;
   }
 }
 
