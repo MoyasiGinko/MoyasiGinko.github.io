@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
 
 * {
   box-sizing: border-box;
@@ -7,7 +7,7 @@
 }
 
 body {
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
   background-color: #f7f7f9;
 }
 
@@ -37,6 +37,11 @@ header {
   font-weight: 700;
   line-height: 20px;
   text-decoration: none;
+  cursor: pointer;
+}
+
+#logo:hover {
+  transform: rotate(-4deg);
 }
 
 #logo,
@@ -99,7 +104,7 @@ header {
   height: 600px;
   display: flex;
   align-items: center;
-  background-image: url("asset/header-bg.png");
+  background-image: url('asset/header-bg.png');
   background-size: cover;
   background-repeat: no-repeat;
   border-bottom-left-radius: 80px;
