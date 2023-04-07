@@ -232,6 +232,11 @@ header {
   line-height: 16px;
   padding: 4px 12px;
   border-radius: 8px;
+  cursor: pointer;
+}
+
+.card__skills ul li:hover {
+  background: #cdcdfe;
 }
 
 .card-bg-info ul li:nth-child(2) {
