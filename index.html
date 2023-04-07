@@ -11,64 +11,66 @@
 </head>
 <body>
     <div class="wrapper">
-        <header>
-            <a href="#" id="logo">My Logo</a>
-            <nav>
-                <i class="fa fa-bars fa-lg"></i>
-                <ul class="nav-links">
-                    <li>
-                        <a href="#card-section">Portfolio</a>
-                    </li>
-                    <li>
-                        <a href="#about">About</a>
-                    </li>
-                    <li>
-                        <a href="#form-section">Contact</a>
-                    </li>
-                </ul>
-            </nav>
-        </header>
-        <section class="main-container">
-            <div class="main-content-intro">
-                <div>
-                    <h1>I'm Moyasi. <br />
-                        Glad to see you!
-                    </h1>
+        <div class="front-page">
+            <header>
+                <a href="#" id="logo">My Logo</a>
+                <nav>
+                    <i class="fa fa-bars fa-lg"></i>
+                    <ul class="nav-links">
+                        <li>
+                            <a href="#card-section">Portfolio</a>
+                        </li>
+                        <li>
+                            <a href="#about">About</a>
+                        </li>
+                        <li>
+                            <a href="#form-section">Contact</a>
+                        </li>
+                    </ul>
+                </nav>
+            </header>
+            <section class="main-container">
+                <div class="main-content-intro">
+                    <div>
+                        <h1>I'm Moyasi. <br />
+                            Glad to see you!
+                        </h1>
+                    </div>
+                    <div>
+                        <p>
+                            I'm a software developer! I can help you build a product , feature or website Look through some
+                            of my work and experience!
+                            If you like what you see and have a project you need coded, don't hestiate to contact me.
+                        </p>
+                    </div>
+                    <div id="social__container">
+                        <a href="#" id="social-heading">Let's Connect</a>
+                            <div class="social__icons">
+                                <ul>
+                                    <li>
+                                        <a href="https://twitter.com/moyasi_ginko"><img src="asset/twitter.svg"
+                                                alt="twitter icon"></a>
+                                    </li>
+                                    <li>
+                                        <a href="https://www.linkedin.com/in/mahmudur-rahman-a8a151257/"><img
+                                                src="asset/Linkedin icon.svg" alt="Linkedin icon"></a>
+                                    </li>
+                                    <li>
+                                        <a href="#"><img src="asset/M.svg" alt="M icon"></a>
+                                    </li>
+                                    <li>
+                                        <a href="https://github.com/MoyasiGinko"><img src="asset/github.svg"
+                                                alt="github icon"></a>
+                                    </li>
+                                    <li>
+                                        <a href="#"><img src="asset/thumbs.svg" alt="thumbs icon"></a>
+                                    </li>
+                                </ul>
+                            </div>
+                    </div>
                 </div>
-                <div>
-                    <p>
-                        I'm a software developer! I can help you build a product , feature or website Look through some
-                        of my work and experience!
-                        If you like what you see and have a project you need coded, don't hestiate to contact me.
-                    </p>
-                </div>
-                <div id="social__container">
-                    <a href="#" id="social-heading">Let's Connect</a>
-                        <div class="social__icons">
-                            <ul>
-                                <li>
-                                    <a href="https://twitter.com/moyasi_ginko"><img src="asset/twitter.svg"
-                                            alt="twitter icon"></a>
-                                </li>
-                                <li>
-                                    <a href="https://www.linkedin.com/in/mahmudur-rahman-a8a151257/"><img
-                                            src="asset/Linkedin icon.svg" alt="Linkedin icon"></a>
-                                </li>
-                                <li>
-                                    <a href="#"><img src="asset/M.svg" alt="M icon"></a>
-                                </li>
-                                <li>
-                                    <a href="https://github.com/MoyasiGinko"><img src="asset/github.svg"
-                                            alt="github icon"></a>
-                                </li>
-                                <li>
-                                    <a href="#"><img src="asset/thumbs.svg" alt="thumbs icon"></a>
-                                </li>
-                            </ul>
-                        </div>
-                </div>
-            </div>
-        </section>
+            </section>
+        </div>
         <section id="card-section">
             <div class="card__container">
                 <div class="items card-1">
@@ -221,7 +223,7 @@
                             <a href="#" id="about-heading">LET'S CONNECT</a>
                         </div>
                         <div class="social__icons">
-                            <ul>
+                            <ul id="social__icons-about">
                                 <li>
                                     <a href="https://twitter.com/moyasi_ginko"><img src="asset/twitter.svg"
                                             alt="twitter icon"></a>
@@ -244,13 +246,13 @@
                         </div>
                     </div>
                     <div>
-                        <button class="btn" type="button">Get my resume</button>
+                        <button id="btn-container" class="btn-about" type="button">Get my resume</button>
                     </div>
                 </div>
                 <div class="skills__container">
                     <ul>
                         <li class="language__content">
-                            <div class="skill__item">
+                            <div id="skill-item-color" class="skill__item">
                                 <p>Languages</p>
                                 <button type="button">
                                     <img src="asset/chevron-down.png" alt="arrow icon">
@@ -259,19 +261,19 @@
                             <div>
                                 <ul class="language__list">
                                     <li class="language__item">
-                                        <div>
+                                        <div id="lan-item">
                                             <img src="asset/js-icon.png" alt="js icon">
                                             <p>Javascript</p>
                                         </div>
                                     </li>
                                     <li class="language__item">
-                                        <div>
+                                        <div id="lan-item">
                                             <img src="asset/html-icon.png" alt="html icon">
                                             <p>HTML</p>
                                         </div>
                                     </li>
                                     <li class="language__item">
-                                        <div>
+                                        <div id="lan-item">
                                             <img src="asset/css-icon.png" alt="css icon">
                                             <p>CSS</p>
                                         </div>
@@ -280,13 +282,13 @@
                             </div>
                         </li>
 
-                        <li class="skill__item bottom-bar">
+                        <li id="skill-item-color" class="skill__item bottom-bar">
                             <p>Frameworks</p>
                             <button type="button">
                                 <img src="asset/chevron-right.png" alt="arrow icon">
                             </button>
                         </li>
-                        <li class="skill__item bottom-bar">
+                        <li id="skill-item-color" class="skill__item bottom-bar">
                             <p>Skills</p>
                             <button type="button">
                                 <img src="asset/chevron-right.png" alt="arrow icon">
@@ -325,7 +327,7 @@
                             </div>
                         </li>
                         <li>
-                            <button type="submit" class="btn">Get in touch</button>
+                            <button type="submit" id="btn-container" class="btn-form">Get in touch</button>
                         </li>
                     </ul>
                 </form>
