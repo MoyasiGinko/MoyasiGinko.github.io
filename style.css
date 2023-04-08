@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
 
 * {
   box-sizing: border-box;
@@ -7,7 +7,7 @@
 }
 
 body {
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
   background-color: #f7f7f9;
 }
 
@@ -37,11 +37,16 @@ header {
   font-weight: 700;
   line-height: 20px;
   text-decoration: none;
+  cursor: pointer;
 }
 
 #logo,
 .fa-bars {
   color: #6070ff;
+}
+
+#logo:hover {
+  transform: rotate(-4deg);
 }
 
 .stake {
@@ -99,7 +104,7 @@ header {
   height: 600px;
   display: flex;
   align-items: center;
-  background-image: url("asset/header-bg.png");
+  background-image: url('asset/header-bg.png');
   background-size: cover;
   background-repeat: no-repeat;
   border-bottom-left-radius: 80px;
@@ -232,6 +237,11 @@ header {
   line-height: 16px;
   padding: 4px 12px;
   border-radius: 8px;
+  cursor: pointer;
+}
+
+.card__skills ul li:hover {
+  background: #cdcdfe;
 }
 
 .card-bg-info ul li:nth-child(2) {
@@ -365,8 +375,38 @@ header {
   font-weight: 500;
 }
 
-.language__item {
+.language__list {
   list-style: none;
+  display: flex;
+  flex-direction: column;
+}
+
+.language__item > div {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 9px 12px;
+  background-color: #f7f7f9;
+  box-sizing: border-box;
+  border-radius: 10px;
+}
+
+#lan-item p {
+  display: flex;
+  align-items: center;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 20px;
+  margin-left: 16px;
+  color: #253858;
+}
+
+.skills__container,
+.language__item {
+  margin-bottom: 12px;
+  padding: 0 12px;
 }
 
 .bottom-bar {
@@ -412,6 +452,11 @@ header {
   font-size: 20px;
   line-height: 28px;
   text-align: center;
+}
+
+#lan-item p:hover {
+  color: #99a1f9;
+  cursor: pointer;
 }
 
 #form input,
@@ -595,28 +640,40 @@ header {
     flex-direction: row;
     gap: 12px;
     list-style-type: none;
-    margin-left: 12px;
   }
 
   .language__list li div {
-    width: 115px;
-    height: 100px;
+    width: 122px;
+    height: 120px;
     height: 100%;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     background-color: #f7f7f9;
     padding-top: 12px;
-    padding-left: 12px;
   }
 
   .language__item img {
     width: 48px;
+    height: 48px;
+    top: 12px;
   }
 
   .language__item p {
-    margin-left: 0;
     margin-top: 10px;
+  }
+
+  #lan-item p {
+    width: 98px;
+    height: 24px;
+    flex-direction: row;
+    align-items: left;
+    text-align: left;
+    margin-left: 10px;
+  }
+
+  #lan-item img {
+    margin-left: -50px;
   }
 
   #skill-item-color p {
