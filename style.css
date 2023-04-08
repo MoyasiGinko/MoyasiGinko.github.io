@@ -40,13 +40,13 @@ header {
   cursor: pointer;
 }
 
-#logo:hover {
-  transform: rotate(-4deg);
-}
-
 #logo,
 .fa-bars {
   color: #6070ff;
+}
+
+#logo:hover {
+  transform: rotate(-4deg);
 }
 
 .stake {
@@ -391,15 +391,10 @@ header {
   border-radius: 10px;
 }
 
-#lan-item p:hover {
-  color: #99a1f9;
-  cursor: pointer;
-}
-
 #lan-item p {
   display: flex;
   align-items: center;
-  font-family: 'Poppins';
+  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 15px;
@@ -457,6 +452,11 @@ header {
   font-size: 20px;
   line-height: 28px;
   text-align: center;
+}
+
+#lan-item p:hover {
+  color: #99a1f9;
+  cursor: pointer;
 }
 
 #form input,
@@ -663,6 +663,7 @@ header {
     margin-left: 0px;
     margin-top: 10px;
   }
+
   #lan-item p {
     width: 98px;
     height: 24px;
@@ -671,6 +672,7 @@ header {
     text-align: left;
     margin-left: 10px;
   }
+  
   #lan-item img {
     margin-left: -50px;
   }
