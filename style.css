@@ -403,7 +403,7 @@ header {
   color: #253858;
 }
 
-.skills__container, 
+.skills__container,
 .language__item {
   margin-bottom: 12px;
   padding: 0 12px;
@@ -660,7 +660,6 @@ header {
   }
 
   .language__item p {
-    margin-left: 0px;
     margin-top: 10px;
   }
 
