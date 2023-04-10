@@ -139,7 +139,7 @@ Double-Click on the "index.html" file to open the web page.
 
 👤 **@Metaverse-Moyasi**
 
-- GitHub: [@Metaverse-Moyasi](https://github.com/MoyasiGinko)
+- GitHub: [@MoyasiGinko](https://github.com/MoyasiGinko)
 - LinkedIn: [@mahmudur-rahman-a8a151257](https://www.linkedin.com/in/mahmudur-rahman-a8a151257/)
 - Twitter: [@moyasi_ginko](https://twitter.com/moyasi_ginko)
 
@@ -148,7 +148,7 @@ Double-Click on the "index.html" file to open the web page.
 <!-- FUTURE FEATURES -->
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [ ] **[Desktop Version**
+- [ ] **[Accessibility Feature]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
