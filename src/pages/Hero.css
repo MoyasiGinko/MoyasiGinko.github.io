@@ -1,0 +1,233 @@
+.hero {
+  height: 100vh;
+  padding: 0 10%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 10%;
+  margin-bottom: 10%;
+}
+
+.hero-overlay {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10% 0 0;
+}
+
+.description {
+  width: 75%;
+  padding: 20px;
+  /* background: transparent;
+  backdrop-filter: blur(2px);
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2);
+  border-radius: 30px;
+  margin-right: 20px; */
+}
+
+.hero-image {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 35%;
+  animation-name: floating;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+}
+
+.title {
+  font-size: 3rem;
+  font-weight: bold;
+  color: white;
+  margin: 0;
+  font-family: 'Orbit', sans-serif;
+  overflow: hidden;
+}
+
+.tagline {
+  font-size: 1.5rem;
+  color: #378589;
+  margin: -1% 0 0 0;
+  font-family: 'Orbit', sans-serif;
+}
+
+.paragraph {
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  color: #333;
+  opacity: 0.8;
+  font-weight: 500;
+  line-height: 2.2rem;
+  margin: 2rem 0;
+  text-align: justify;
+  width: 85%;
+}
+
+.hero-btns {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+
+.hire-me,
+.lets-talk {
+  color: #378589;
+  border: 2px solid #378589;
+  background-color: transparent;
+  font-size: 1rem;
+  padding: 1rem 2rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.hire-me:hover,
+.lets-talk:hover {
+  background-color: #378589;
+  color: #fff;
+  border: none;
+  transition: background-color 0.3s ease;
+}
+
+.hire-me:active,
+.lets-talk:active {
+  background-color: #bdecff;
+  color: #378589;
+  transform: scale(0.9);
+}
+
+.social-icons {
+  display: flex;
+  align-items: center;
+  gap: 4rem;
+}
+
+.social-icons a {
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  text-decoration: none;
+  font-size: 2rem;
+}
+
+.social-icons a i {
+  transition: 0.3s ease-in-out;
+}
+
+.social-icons a:hover i {
+  transition: 0.3s ease-in-out;
+  transform: scale(1.3);
+}
+
+@keyframes floating {
+  0% {
+    transform: translate(0, 0);
+  }
+
+  50% {
+    transform: translate(0, 15px);
+  }
+
+  100% {
+    transform: translate(0, -0);
+  }
+}
+
+/* for MacBook ~ 13 inch */
+
+@media only screen and (min-width: 900px) {
+  .description {
+    width: 75%;
+    padding: 20px;
+    background: transparent;
+    backdrop-filter: blur(2px);
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2);
+    border-radius: 30px;
+    margin-right: 20px;
+  }
+
+  .title {
+    font-size: 4.5vw;
+  }
+
+  .tagline {
+    font-size: 1.2rem;
+  }
+
+  .hero-image {
+    width: 35%;
+  }
+
+  .paragraph {
+    font-size: 1rem;
+    width: 95% !important;
+    margin: 2% 0 5% 0;
+  }
+
+  .social-icons a {
+    font-size: 1.8rem;
+  }
+}
+
+/* for mobile and tablet devices */
+
+@media only screen and (max-width: 900px) {
+  .hero {
+    padding: 10% 5% 0 5%;
+    height: auto;
+    margin-bottom: 20%;
+  }
+
+  .tagline {
+    font-size: 1rem;
+  }
+
+  .paragraph {
+    font-size: 0.85rem;
+    margin: 4% 0 5% 0;
+    width: 100% !important;
+  }
+
+  .hero-overlay {
+    flex-direction: column;
+  }
+
+  .description {
+    width: 100%;
+  }
+
+  .hero-image {
+    padding: 15% 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+  }
+
+  .hero-btns {
+    gap: 1rem;
+    margin-top: 10%;
+  }
+
+  button {
+    font-size: 0.8rem;
+    padding: 0.7rem 2rem;
+  }
+
+  .title {
+    font-size: 1.8rem;
+    margin: 5% 0;
+  }
+
+  .social-icons {
+    justify-content: center;
+  }
+
+  .social-icons a {
+    font-size: 1.5rem;
+  }
+}
