@@ -39,6 +39,18 @@
   color: #378589;
 }
 
+.live-prv {
+  color: #3c7c95;
+}
+
+.live-prv:hover {
+  color: #0c789f;
+}
+
+.live-prv:active {
+  color: #2c5f98;
+}
+
 .stacks {
   display: flex;
   flex-wrap: wrap;
