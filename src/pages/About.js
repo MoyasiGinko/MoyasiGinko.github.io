@@ -34,16 +34,16 @@ const About = () => (
     <div className="about-me">
       <h2 className="title about-title">about ME,</h2>
       <p className="paragraph about-para">
-        My journey into the world of programming began in
-        2020 when I embarked on a freelancing adventure. Since then, I've had
-        the opportunity to work on a diverse range of projects, refining my
-        skills and expanding my knowledge along the way. I have collaborated
-        with various clients both independently and as part of a team, creating
-        innovative and user-friendly websites and mobile applications.
+        My journey into the world of programming began in 2020 when I embarked
+        on a freelancing adventure. Since then, I've had the opportunity to work
+        on a diverse range of projects, refining my skills and expanding my
+        knowledge along the way. I have collaborated with various clients both
+        independently and as part of a team, creating innovative and
+        user-friendly websites and mobile applications.
       </p>
       <button className="hire-me">
         <a
-          href="https://drive.google.com/file/d/1RIQlxcFspH89xvugEeEyvgSG_ABMX3rI/view?usp=drive_link"
+          href="https://docs.google.com/document/d/1BMSORRcoC9AXmvAX6wXmhk7EiOLAhYCOq1l0SuPwAqI/view?usp=drive_link"
           target="_blank"
           rel="noreferrer"
         >

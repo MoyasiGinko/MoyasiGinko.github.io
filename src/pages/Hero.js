@@ -20,7 +20,7 @@ const Hero = () => (
         <div className="hero-btns">
           <button className="hire-me">
             <a
-              href="https://docs.google.com/document/d/1BMSORRcoC9AXmvAX6wXmhk7EiOLAhYCOq1l0SuPwAqI/edit?usp=sharing"
+              href="https://docs.google.com/document/d/1BMSORRcoC9AXmvAX6wXmhk7EiOLAhYCOq1l0SuPwAqI/view?usp=drive_link"
               target="_blank"
               rel="noreferrer"
             >
