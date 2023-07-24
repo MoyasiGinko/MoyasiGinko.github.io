@@ -1,7 +1,7 @@
 import React from 'react';
 import './Hero.css';
 import { Link } from 'react-scroll';
-import Imu from '../assets/imu.png';
+import Imu from '../assets/giphy.gif';
 
 const Hero = () => (
   <div className="hero" id="home">
