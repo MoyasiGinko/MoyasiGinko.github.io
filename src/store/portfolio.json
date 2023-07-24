@@ -50,7 +50,7 @@
   {
     "project_name": "Math Magicians",
     "image_url": "https://github.com/MoyasiGinko/MoyasiGinko.github.io/assets/108092696/497b1565-1b80-4c7b-bce4-77d497bbaa04",
-    "description": "The React Calculator is a web application with a user-friendly interface for mathematical calculations. Built with React offers a dynamic and interactive experience, allowing users to input numbers and perform basic arithmetic operations (such as addition, subtraction, multiplication, and division).",
+    "description": "The React Calculator is a web application with a user-friendly interface for mathematical calculations.",
     "source_link": "https://github.com/MoyasiGinko/math-magician",
     "live_link": "https://math-magician-m0pk.onrender.com/",
     "tech_stack": ["WordPress", "CSS", "JavaScript", "Woocommerce", "Stripe"]
