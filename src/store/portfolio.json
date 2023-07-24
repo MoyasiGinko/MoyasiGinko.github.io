@@ -1,6 +1,6 @@
 [
   {
-    "project_name": "HandyMate",
+    "project_name": "Aniverse Anime List",
     "image_url": "https://prantoshb.github.io/Portfolio-Backend/assets/handymate.png",
     "description": "A Full-Stack web application, where users can reserve home services like Electrician, Plumber, Gardening etc. User can also delete the reservation. The Admin can add new services and delete existing services.",
     "source_link": "https://github.com/PrantoshB/HandyMate-Frontend",
