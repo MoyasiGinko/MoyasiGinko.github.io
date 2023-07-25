@@ -3,10 +3,10 @@
 .contact {
   display: flex;
   width: auto;
-  height: 100vh;
+  height: 100%;
   padding: 5% 10% 0 10%;
   align-items: center;
-  background: linear-gradient(45deg, #002c62, #0086ff);
+  background: linear-gradient(45deg, #08080f, #273965, #46b2d3);
   gap: 5%;
   perspective: 1000px;
   /* For 3D effect */
