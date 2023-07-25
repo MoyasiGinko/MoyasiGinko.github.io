@@ -6,7 +6,7 @@
   overflow: hidden;
   position: relative;
   margin-bottom: 1rem;
-  background: transparent;
+  background: #373a890d;
   backdrop-filter: blur(2px);
   box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2);
   border-radius: 20px;

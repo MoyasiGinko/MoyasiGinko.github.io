@@ -2,6 +2,7 @@
 
 .contact {
   display: flex;
+  width: auto;
   height: 100vh;
   padding: 5% 10% 0 10%;
   align-items: center;
@@ -103,14 +104,14 @@ h3 span a::after {
 .social {
   display: flex;
   align-items: center;
-  gap: 2rem;
+  gap: 1rem;
 }
 
 .social a {
   padding: 4px;
   color: #0086ff;
   background-color: #fff;
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   font-family: 'Open Sans', sans-serif;
   font-weight: 600;
   text-decoration: none;
@@ -143,11 +144,28 @@ button.hire-me:hover {
   /* 3D hover effect */
 }
 
+@media only screen and (-webkit-min-device-pixel-ratio: 1.3),
+only screen and (min-resolution: 125dpi) {
+  .footer-left h1 {
+    font-size: 7rem;
+  }
+
+  .footer-right h3 {
+    font-size: 2rem;
+  }
+
+  .interests p {
+    font-size: 1.2rem;
+    margin: 0.5rem 0;
+  }
+}
+
 @media only screen and (max-width: 768px) {
   .contact {
     flex-direction: column;
     padding: 5%;
     height: auto !important;
+    width: 100%;
   }
 
   .footer-left,

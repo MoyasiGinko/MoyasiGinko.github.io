@@ -4,7 +4,8 @@
 
 body {
   margin: 0;
-  background: linear-gradient(135deg, #94eaec, #7c9aea, #61d8fc);
+  background: linear-gradient(135deg, #08080f, #121b32, #61d8fc);
+  /* background: linear-gradient(135deg, #94eaec, #7c9aea, #61d8fc); */
   background-size: 300% 300%;
   animation: gradientAnimation 15s ease infinite;
   background-attachment: fixed;
