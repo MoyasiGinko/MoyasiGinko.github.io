@@ -1,0 +1,58 @@
+[
+  {
+    "project_name": "Aniverse Anime List",
+    "image_url": "https://github.com/MoyasiGinko/MoyasiGinko.github.io/assets/108092696/f944c06c-d365-4c3c-82c2-39887a1ee23b",
+    "description": "Aniverse is a sleek web application for anime enthusiasts. Discover a vast collection of anime titles, from popular to trending shows and access detailed information like synopses, genres, episode counts, and airing status. Explore genres, search with ease, and save favorite searches to your list.",
+    "source_link": "https://github.com/MoyasiGinko/React-Capstone",
+    "live_link": "https://moyasiginko-aniverse.netlify.app/",
+    "tech_stack": ["React", "Redux", "Testing", "Jest", "Webpack", "CSS"]
+  },
+  {
+    "project_name": "Aniverse TV Show List",
+    "image_url": "https://github.com/MoyasiGinko/MoyasiGinko.github.io/assets/108092696/ef6d6758-3d57-42f2-88db-eee59332609f",
+    "description": "Project-Anniverse is a web application built with JavaScript, designed for TV show enthusiasts. With this platform, users can discover, like, and comment on their favorite TV shows.",
+    "source_link": "https://github.com/MoyasiGinko/JavaScript-Capstone",
+    "live_link": "https://moyasiginko.github.io/JavaScript-Capstone/dist/",
+    "tech_stack": ["HTML", "CSS", "JavaScript", "JSON", "Figma"]
+  },
+  {
+    "project_name": "Space Travel X",
+    "image_url": "https://github.com/MoyasiGinko/MoyasiGinko.github.io/assets/108092696/b5bf8d60-9954-4619-9da2-9b2cd54706cf",
+    "description": "The Space Traveler site is a captivating web application offering an immersive experience for space enthusiasts. Discover information about rockets, dragons, and missions through a user-friendly interface.",
+    "source_link": "https://github.com/MoyasiGinko/Space-Traveler-X",
+    "live_link": "https://moyasiginko-space-traveller.netlify.app/",
+    "tech_stack": ["HTML", "CSS", "JavaScript", "JSON", "Figma", "API", "React"]
+  },
+  {
+    "project_name": "Aniverse Exhibition",
+    "image_url": "https://github.com/MoyasiGinko/MoyasiGinko.github.io/assets/108092696/f007c2fa-ab5f-4214-b41e-29b45ee752f6",
+    "description": "A meticulously crafted dynamic website for anime enthusiasts. Featuring a visually appealing design, immersive anime exploration, and interactive card-based content.",
+    "source_link": "https://github.com/MoyasiGinko/Capstone-Project",
+    "live_link": "https://moyasiginko.github.io/Capstone-Project/",
+    "tech_stack": ["HTML", "CSS", "JavaScript"]
+  },
+  {
+    "project_name": "Todo App",
+    "image_url": "https://github.com/MoyasiGinko/MoyasiGinko.github.io/assets/108092696/95a79d2c-8e44-443d-9e7d-427f1a631a79",
+    "description": "A Todo List app created using JavaScript, HTML, and CSS. This app utilizes modern ES6 syntax and modular design, making it easy to organize and manage your tasks.",
+    "source_link": "https://github.com/MoyasiGinko/ToDoList-Project",
+    "live_link": "https://moyasiginko.github.io/ToDoList-Project/dist/",
+    "tech_stack": ["React", "CSS", "JavaScript", "Babel", "Webpack"]
+  },
+  {
+    "project_name": "Bookstore App",
+    "image_url": "https://github.com/MoyasiGinko/MoyasiGinko.github.io/assets/108092696/1ae1f835-f1a0-4fdd-ae12-db8f47e96f74",
+    "description": "It's a fully functional online bookstore where bookworms can explore a wide range of titles, add books to their cart, and complete secure transactions.",
+    "source_link": "https://github.com/MoyasiGinko/React-BookStore",
+    "live_link": "https://moyasiginko-bookstore.netlify.app/",
+    "tech_stack": ["React", "CSS", "JavaScript"]
+  },
+  {
+    "project_name": "Math Magicians",
+    "image_url": "https://github.com/MoyasiGinko/MoyasiGinko.github.io/assets/108092696/497b1565-1b80-4c7b-bce4-77d497bbaa04",
+    "description": "The React Calculator is a web application with a user-friendly interface for mathematical calculations.",
+    "source_link": "https://github.com/MoyasiGinko/math-magician",
+    "live_link": "https://math-magician-m0pk.onrender.com/",
+    "tech_stack": ["WordPress", "CSS", "JavaScript", "Woocommerce", "Stripe"]
+  }
+]
