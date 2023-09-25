@@ -8,6 +8,14 @@
     "tech_stack": ["Ruby", "Ruby on Rails", "Testing", "HTML", "CSS"]
   },
   {
+    "project_name": "Food Recipe",
+    "image_url": "https://github.com/MoyasiGinko/MoyasiGinko.github.io/assets/108092696/78268987-8c12-4c71-913e-0c627d9979fc",
+    "description": "The Recipe app keeps track of all your recipes, ingredients, and inventory. It allows you to save ingredients, create recipes, and generate a shopping list based on what you have and what you are missing from a recipe. Also, since sharing recipes is an important part of cooking the app should allow you to make them public so anyone can access them.",
+    "source_link": "https://github.com/MoyasiGinko/Food-App",
+    "live_link": "https://github.com/MoyasiGinko/Food-App",
+    "tech_stack": ["Ruby", "Ruby on Rails", "Testing", "HTML", "CSS"]
+  },
+  {
     "project_name": "Blog App",
     "image_url": "https://github.com/MoyasiGinko/MoyasiGinko.github.io/assets/108092696/650e51a3-0e25-427d-8ab6-68076c3988f4",
     "description": "A ruby on rails full stack project. It is a user-friendly rails blog app. Users can create new account, create posts, create comments and likes. Personalize their feeds with new stories daily",
