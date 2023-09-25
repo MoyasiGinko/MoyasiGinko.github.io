@@ -1,5 +1,13 @@
 [
   {
+    "project_name": "CMS - Cost Management",
+    "image_url": "https://github.com/MoyasiGinko/MoyasiGinko.github.io/assets/108092696/38ce705c-8bae-4171-99bf-87cda874067a",
+    "description": "A modern Cost Management web application built with Ruby on Rails. Easily track your expenses, manage categories, and stay on top of your financial goals. Features include user authentication, transaction history, and a responsive design for seamless use on any device.",
+    "source_link": "https://github.com/MoyasiGinko/Cost-Management-Capstone",
+    "live_link": "https://rails-8sbg.onrender.com/",
+    "tech_stack": ["Ruby", "Ruby on Rails", "Testing", "HTML", "CSS"]
+  },
+  {
     "project_name": "Aniverse Anime List",
     "image_url": "https://github.com/MoyasiGinko/MoyasiGinko.github.io/assets/108092696/f944c06c-d365-4c3c-82c2-39887a1ee23b",
     "description": "Aniverse is a sleek web application for anime enthusiasts. Discover a vast collection of anime titles, from popular to trending shows and access detailed information like synopses, genres, episode counts, and airing status. Explore genres, search with ease, and save favorite searches to your list.",
