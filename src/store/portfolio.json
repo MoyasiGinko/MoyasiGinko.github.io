@@ -8,6 +8,14 @@
     "tech_stack": ["Ruby", "Ruby on Rails", "Testing", "HTML", "CSS"]
   },
   {
+    "project_name": "Blog App",
+    "image_url": "https://github.com/MoyasiGinko/MoyasiGinko.github.io/assets/108092696/650e51a3-0e25-427d-8ab6-68076c3988f4",
+    "description": "A ruby on rails full stack project. It is a user-friendly rails blog app. Users can create new account, create posts, create comments and likes. Personalize their feeds with new stories daily",
+    "source_link": "https://github.com/MoyasiGinko/Rails-Blog",
+    "live_link": "https://github.com/MoyasiGinko/Rails-Blog",
+    "tech_stack": ["Ruby", "Ruby on Rails", "Testing", "HTML", "CSS"]
+  },
+  {
     "project_name": "Aniverse Anime List",
     "image_url": "https://github.com/MoyasiGinko/MoyasiGinko.github.io/assets/108092696/f944c06c-d365-4c3c-82c2-39887a1ee23b",
     "description": "Aniverse is a sleek web application for anime enthusiasts. Discover a vast collection of anime titles, from popular to trending shows and access detailed information like synopses, genres, episode counts, and airing status. Explore genres, search with ease, and save favorite searches to your list.",
