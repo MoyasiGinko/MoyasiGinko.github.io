@@ -16,6 +16,14 @@
     "tech_stack": ["Ruby", "Ruby on Rails", "Testing", "HTML", "CSS"]
   },
   {
+    "project_name": "Catalogue of Things",
+    "image_url": "https://github.com/MoyasiGinko/MoyasiGinko.github.io/assets/108092696/7f50de24-e012-42c8-a0f8-167100fbb39e",
+    "description": "Catalog of Things is a Ruby application that allows users to create and manage their own catalogs of items. Users can add items to their catalogs, view users’ catalogs.",
+    "source_link": "https://github.com/MoyasiGinko/Catalogue-of-things-Capstone",
+    "live_link": "https://github.com/MoyasiGinko/Catalogue-of-things-Capstone",
+    "tech_stack": ["Ruby", "Database", "PostgreSQL"]
+  },
+  {
     "project_name": "Aniverse Anime List",
     "image_url": "https://github.com/MoyasiGinko/MoyasiGinko.github.io/assets/108092696/f944c06c-d365-4c3c-82c2-39887a1ee23b",
     "description": "Aniverse is a sleek web application for anime enthusiasts. Discover a vast collection of anime titles, from popular to trending shows and access detailed information like synopses, genres, episode counts, and airing status. Explore genres, search with ease, and save favorite searches to your list.",
