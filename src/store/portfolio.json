@@ -1,8 +1,8 @@
 [
-    {
+  {
     "project_name": "HandyHome Hub",
-    "image_url": "https://github.com/MoyasiGinko/MoyasiGinko.github.io/assets/108092696/7bde0c5c-aa51-40f1-b533-83dd8e7dc350",
-    "description": "A modern HandyHome web application built with Ruby on Rails. Easily track your expenses, manage categories, and stay on top of your financial goals. Features include user authentication, transaction history, and a responsive design for seamless use on any device.",
+    "image_url": "https://github.com/MoyasiGinko/MoyasiGinko.github.io/assets/108092696/bb520ea5-905b-4f3f-bc7f-33c876c2963f",
+    "description": "A modern HandyHome Hub web application built with Ruby on Rails on backend and React on the front-end. Easily make reservations to your services, manage schedules, and stay on top of your time. Features include user authentication, explore services, reservations, and a responsive design for seamless use on any device.",
     "source_link": "https://github.com/lincoln1883/appointment-capstone-frontend",
     "live_link": "https://handyhomehub.netlify.app/",
     "tech_stack": ["Ruby", "Ruby on Rails", "Testing", "HTML", "CSS"]
