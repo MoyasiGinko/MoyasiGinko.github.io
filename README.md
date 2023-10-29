@@ -6,7 +6,7 @@
 # Table of Contents
 
 - [Table of Contents](#-table-of-contents)
-- [ Portfolio - Prantosh Biswas 🤘](#-about-project-)
+- [ Portfolio - Moyasi ](#-about-project-)
   - [🛠 Built With ](#-built-with-)
     - [Tech Stack ](#tech-stack-)
     - [Key Features ](#key-features-)
