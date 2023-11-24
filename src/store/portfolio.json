@@ -29,7 +29,7 @@
     "description": "A ruby on rails full stack project. It is a user-friendly rails blog app. Users can create new account, create posts, create comments and likes. Personalize their feeds with new stories daily",
     "source_link": "https://github.com/MoyasiGinko/Rails-Blog",
     "live_link": "https://github.com/MoyasiGinko/Rails-Blog",
-    "tech_stack": ["Ruby", "Ruby on Rails", "Testing", "HTML", "CSS"]
+    "tech_stack": ["Ruby", "Ruby on Rails", "Testing", "HTML", "CSS", "Database"]
   },
   {
     "project_name": "Catalogue of Things",
