@@ -37,7 +37,7 @@
     "description": "Catalog of Things is a Ruby application that allows users to create and manage their own catalogs of items. Users can add items to their catalogs, view users’ catalogs.",
     "source_link": "https://github.com/MoyasiGinko/Catalogue-of-things-Capstone",
     "live_link": "https://github.com/MoyasiGinko/Catalogue-of-things-Capstone",
-    "tech_stack": ["Ruby", "Database", "PostgreSQL"]
+    "tech_stack": ["Ruby", "Testing", "Database", "PostgreSQL"]
   },
   {
     "project_name": "Aniverse Anime List",
