@@ -45,7 +45,7 @@
     "description": "Aniverse is a sleek web application for anime enthusiasts. Discover a vast collection of anime titles, from popular to trending shows and access detailed information like synopses, genres, episode counts, and airing status. Explore genres, search with ease, and save favorite searches to your list.",
     "source_link": "https://github.com/MoyasiGinko/React-Capstone",
     "live_link": "https://moyasiginko-aniverse.netlify.app/",
-    "tech_stack": ["React", "Redux", "Testing", "Jest", "Webpack", "CSS"]
+    "tech_stack": ["React", "Redux", "Testing", "Jest", "Webpack", "HTML", "CSS"]
   },
   {
     "project_name": "Aniverse TV Show List",
