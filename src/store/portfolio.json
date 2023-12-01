@@ -53,7 +53,7 @@
     "description": "Project-Anniverse is a web application built with JavaScript, designed for TV show enthusiasts. With this platform, users can discover, like, and comment on their favorite TV shows.",
     "source_link": "https://github.com/MoyasiGinko/JavaScript-Capstone",
     "live_link": "https://moyasiginko.github.io/JavaScript-Capstone/dist/",
-    "tech_stack": ["HTML", "CSS", "JavaScript", "JSON", "Figma"]
+    "tech_stack": ["HTML", "CSS", "JavaScript", "JSON", "Figma", "Testing"]
   },
   {
     "project_name": "Space Travel X",
