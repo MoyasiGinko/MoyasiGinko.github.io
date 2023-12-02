@@ -69,7 +69,7 @@
     "description": "A meticulously crafted dynamic website for anime enthusiasts. Featuring a visually appealing design, immersive anime exploration, and interactive card-based content.",
     "source_link": "https://github.com/MoyasiGinko/Capstone-Project",
     "live_link": "https://moyasiginko.github.io/JSCapstone-Project/",
-    "tech_stack": ["HTML", "CSS", "JavaScript"]
+    "tech_stack": ["HTML", "CSS", "JavaScript", "Testing"]
   },
   {
     "project_name": "Todo App",
