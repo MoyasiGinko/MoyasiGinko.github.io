@@ -1,8 +1,5 @@
-import React from 'react';
-import './Contact.css';
-
 const Contact = () => (
-  <div className="contact" id="contact">
+  <section className="contact" id="contact">
     <div className="footer-left">
       <h1>
         Let's
@@ -39,37 +36,13 @@ const Contact = () => (
       <hr />
 
       <div className="social">
-        <a
-          href="https://github.com/MoyasiGinko"
-          target="_blank"
-          rel="noreferrer"
-        >
-          GITHUB
-        </a>
-        <a
-          href="https://www.linkedin.com/in/moyasi"
-          target="_blank"
-          rel="noreferrer"
-        >
-          LINKEDIN
-        </a>
-        <a
-          href="https://wellfound.com/u/moyasi"
-          target="_blank"
-          rel="noreferrer"
-        >
-          WELLFOUND
-        </a>
-        <a
-          href="https://www.twitter.com/moyasi_ginko"
-          target="_blank"
-          rel="noreferrer"
-        >
-          TWITTER
-        </a>
+        <a href="https://github.com/MoyasiGinko" target="_blank" rel="noreferrer">GITHUB</a>
+        <a href="https://www.linkedin.com/in/moyasi" target="_blank" rel="noreferrer">LINKEDIN</a>
+        <a href="https://wellfound.com/u/moyasi" target="_blank" rel="noreferrer">WELLFOUND</a>
+        <a href="https://www.twitter.com/moyasi_ginko" target="_blank" rel="noreferrer">TWITTER</a>
       </div>
     </div>
-  </div>
+  </section>
 );
 
 export default Contact;

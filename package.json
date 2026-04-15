@@ -3,44 +3,29 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "@reduxjs/toolkit": "^1.9.5",
-    "@testing-library/jest-dom": "^5.16.5",
-    "@testing-library/react": "^13.4.0",
-    "@testing-library/user-event": "^13.5.0",
-    "rc-tabs": "^12.8.1",
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0",
-    "react-redux": "^8.1.1",
-    "react-scripts": "5.0.1",
-    "react-scroll": "^1.8.9",
-    "web-vitals": "^2.1.4"
+    "next": "latest",
+    "react": "latest",
+    "react-dom": "latest"
   },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
-  },
-  "browserslist": {
-    "production": [
-      ">0.2%",
-      "not dead",
-      "not op_mini all"
-    ],
-    "development": [
-      "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version"
-    ]
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "clean": "rm -rf .next out build",
+    "clean:legacy": "rm -f public/index.html public/about.txt src/components/Footer.tsx src/assets/close.png src/assets/equal.png src/assets/effect.png src/assets/effect2.png src/assets/effect3.png src/assets/effect4.png src/assets/effect5.png src/assets/effect6.png src/assets/effect7.png src/assets/effect8.png src/assets/effect9.png src/assets/effect10.png src/assets/effect11.png src/assets/effect12.png src/assets/effect13.png src/assets/effect14.png src/assets/effect15.png src/assets/effect16.png src/assets/effect17.png src/assets/effect18.png src/assets/giphy2.gif src/assets/giphy3.gif src/assets/giphy4.gif src/assets/giphy5.gif src/assets/giphy6.gif src/assets/giphy7.gif src/assets/giphy8.gif src/assets/giphy9.gif src/assets/imu.png"
   },
   "devDependencies": {
-    "@babel/core": "^7.22.5",
-    "@babel/eslint-parser": "^7.22.5",
-    "@babel/plugin-syntax-jsx": "^7.22.5",
-    "@babel/preset-react": "^7.22.5",
+    "@tailwindcss/postcss": "latest",
+    "@types/node": "latest",
+    "@types/react": "latest",
+    "@types/react-dom": "latest",
+    "autoprefixer": "latest",
+    "postcss": "latest",
     "stylelint": "^13.13.1",
     "stylelint-config-standard": "^21.0.0",
     "stylelint-csstree-validator": "^1.9.0",
-    "stylelint-scss": "^3.21.0"
+    "stylelint-scss": "^3.21.0",
+    "tailwindcss": "latest",
+    "typescript": "latest"
   }
 }

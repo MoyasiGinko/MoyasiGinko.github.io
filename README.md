@@ -25,7 +25,7 @@
 
 # Portfolio <a name="about-project"></a>
 
-This Personal Portfolio is a dynamic and interactive portfolio website built with React and Redux in the Front-End and Jekyll in the Back-End. It provides a modern and visually appealing platform for showcasing your skills, projects, and achievements to potential employers or clients.
+This personal portfolio is now built with Next.js + TypeScript + Tailwind CSS and renders as a static export, which makes it a better fit for modern deployments and GitHub Pages.
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -35,7 +35,10 @@ This Personal Portfolio is a dynamic and interactive portfolio website built wit
 <details>
   <summary>Client</summary>
   <ul>
-    <li><a href="https://reactjs.org/">React.js</a></li>
+    <li><a href="https://nextjs.org/">Next.js</a></li>
+    <li><a href="https://react.dev/">React</a></li>
+    <li><a href="https://www.typescriptlang.org/">TypeScript</a></li>
+    <li><a href="https://tailwindcss.com/">Tailwind CSS</a></li>
   </ul>
 </details>
 
@@ -88,14 +91,27 @@ Kindly modify the files as needed.
 
 In the project directory, you can run:
 ```
-$ npm start
+$ npm install
+$ npm run dev
 ```
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.
+Runs the app in development mode. Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-You may also see any lint errors in the console.
+For a production-ready static export, run:
+
+```
+$ npm run build
+```
+
+That generates the export in `out/`.
+
+If you get `next: not found`, run a clean install:
+
+```
+$ rm -rf node_modules
+$ npm install
+$ npm run dev
+```
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
