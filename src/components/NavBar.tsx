@@ -2,15 +2,25 @@
 
 import { useEffect, useState } from 'react';
 
+type Theme = 'light' | 'dark';
+
 const NavBar = () => {
   const [open, setOpen] = useState(false);
   const [scroll, setScroll] = useState(false);
+  const [theme, setTheme] = useState<Theme>('dark');
 
   const toggleMenu = () => {
     setOpen(!open);
   };
 
   useEffect(() => {
+    const root = document.documentElement;
+    const storedTheme = localStorage.getItem('theme') as Theme | null;
+    const preferredTheme = window.matchMedia('(prefers-color-scheme: light)').matches ? 'light' : 'dark';
+    const nextTheme = storedTheme ?? preferredTheme;
+    root.setAttribute('data-theme', nextTheme);
+    setTheme(nextTheme);
+
     const handleScroll = () => {
       const scrollTop = window.scrollY || document.documentElement.scrollTop;
       const scrollHeight = document.documentElement.scrollHeight - document.documentElement.clientHeight;
@@ -32,6 +42,14 @@ const NavBar = () => {
 
   const closeMenu = () => {
     setOpen(false);
+  };
+
+  const toggleTheme = () => {
+    const root = document.documentElement;
+    const nextTheme: Theme = theme === 'dark' ? 'light' : 'dark';
+    root.setAttribute('data-theme', nextTheme);
+    localStorage.setItem('theme', nextTheme);
+    setTheme(nextTheme);
   };
 
   return (
@@ -65,6 +83,16 @@ const NavBar = () => {
           </li>
           <li>
             <a href="#contact" onClick={closeMenu}>contact</a>
+          </li>
+          <li>
+            <button
+              type="button"
+              className="theme-toggle"
+              onClick={toggleTheme}
+              aria-label="Toggle dark and light mode"
+            >
+              {theme === 'dark' ? 'LIGHT' : 'DARK'}
+            </button>
           </li>
         </ul>
       </nav>

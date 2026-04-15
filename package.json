@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "gsap": "latest",
     "next": "latest",
     "react": "latest",
     "react-dom": "latest"

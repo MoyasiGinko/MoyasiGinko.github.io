@@ -29,7 +29,8 @@ import Zoomlogo from '../assets/zoom.webp';
 
 const About = () => (
   <section className="about" id="about">
-    <div className="about-me">
+    <div className="about-me reveal-up">
+      <p className="eyebrow">ABOUT</p>
       <h2 className="title about-title">about ME,</h2>
       <p className="paragraph about-para">
         My journey into the world of programming began in 2020 when I embarked
@@ -48,7 +49,7 @@ const About = () => (
         GET MY CV
       </a>
     </div>
-    <div className="about-skills">
+    <div className="about-skills reveal-up">
       <h2 className="skill-title">Front-End</h2>
       <div className="skills">
         <div className="skill"><img src={ReactIcon.src} alt="React" /><p>React</p></div>

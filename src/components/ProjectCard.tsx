@@ -8,7 +8,7 @@ type ProjectCardProps = {
 };
 
 const ProjectCard = ({ image, title, liveLink, description, stacks, sourceLink }: ProjectCardProps) => (
-  <article className="project-card">
+  <article className="project-card reveal-up">
     {sourceLink && sourceLink !== 'N/A' ? (
       <a
         className="project-source"

@@ -1,6 +1,7 @@
 const Contact = () => (
-  <section className="contact" id="contact">
-    <div className="footer-left">
+  <section className="contact reveal-up" id="contact">
+    <div className="footer-left reveal-up">
+      <p className="eyebrow">CONTACT</p>
       <h1>
         Let's
         <br />
@@ -9,7 +10,7 @@ const Contact = () => (
         Coffee ☕️
       </h1>
     </div>
-    <div className="footer-right">
+    <div className="footer-right reveal-up">
       <h3>I'M ALWAYS INTERESTED ABOUT</h3>
       <div className="interests">
         <p>Frontend Development</p>

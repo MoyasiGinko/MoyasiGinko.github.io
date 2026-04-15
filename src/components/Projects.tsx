@@ -14,8 +14,9 @@ const projectList = projects as Project[];
 
 const Projects = () => (
   <section className="projects" id="projects">
+    <p className="eyebrow reveal-up">PROJECTS</p>
     <h1 className="title projects-title">featured PROJECTS</h1>
-    <p className="projects-para">
+    <p className="projects-para reveal-up">
       Deployed 50+ scalable websites and cross-platform mobile applications.
       Collaborated in 100+ projects with 30+ clients all around the world. Looking for next project/role.
     </p>
