@@ -349,6 +349,11 @@ main {
   max-width: min(100%, 30rem);
   aspect-ratio: auto;
   object-fit: cover;
+  filter: sepia(0.45) hue-rotate(28deg) saturate(0.85) brightness(0.92) contrast(1.02);
+}
+
+:root[data-theme='light'] .hero-image {
+  filter: none;
 }
 
 .social-icons {
