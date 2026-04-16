@@ -1,4 +1,4 @@
-import Imu from '../assets/giphy.gif';
+import Imu from '../assets/orbs.gif';
 
 const Hero = () => (
   <section className="hero" id="home">
