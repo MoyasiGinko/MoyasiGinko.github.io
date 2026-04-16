@@ -118,7 +118,7 @@ main {
 }
 
 .navbar.scrolled {
-    width: min(1100px, calc(100% - 2rem));
+    width: min(1200px, calc(100% - 2rem));
   border-color: var(--line-strong);
   top: 10px;
 }
@@ -212,7 +212,6 @@ main {
   font-size: 1.2rem;
 }
 
-.hero,
 .about,
 .projects,
 .contact {
@@ -220,6 +219,7 @@ main {
 }
 
 .hero {
+    padding-top: 1rem;
   min-height: calc(100vh - 3rem);
   display: grid;
   align-items: center;
