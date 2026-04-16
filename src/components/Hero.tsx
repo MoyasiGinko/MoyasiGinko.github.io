@@ -6,14 +6,12 @@ const Hero = () => (
       <div className="description reveal-up">
         <p className="eyebrow hero-copy">SOFTWARE ENGINEER</p>
         <h2 className="title hero-title">hello, I&apos;m moyasi</h2>
-        <h3 className="tagline hero-copy">Creating Digital Experiences</h3>
+        <h3 className="tagline hero-copy">Engineering web, mobile, game, and AI products</h3>
         <p className="paragraph hero-copy">
-          I'm a passionate web developer and UI/UX enthusiast with a love for
-          crafting exceptional digital experiences. With my keyboard as my
-          paintbrush and lines of code as my canvas, I bring ideas to life in
-          the virtual realm. Let's work together to turn your digital dreams
-          into reality. Get in touch, and let's embark on this exciting journey
-          together!
+          I design and deliver software solutions with a strong focus on backend
+          engineering, frontend craftsmanship, game development, and AI-driven
+          features. My approach is practical, polished, and built to turn ideas
+          into dependable products that perform well and feel refined.
         </p>
         <div className="hero-btns hero-cta">
           <a
