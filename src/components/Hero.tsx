@@ -29,6 +29,7 @@ const Hero = () => (
           </a>
         </div>
       </div>
+
       <div className="hero-image-wrap reveal-up">
         <img src={Imu.src} alt="Moyasi" className="hero-image" />
       </div>

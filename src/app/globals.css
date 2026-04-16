@@ -225,18 +225,20 @@ main {
 }
 
 .hero {
-  padding-top: clamp(1.6rem, 4vw, 3rem);
-  padding-bottom: clamp(2rem, 4vw, 3rem);
-  min-height: min(54rem, calc(100dvh - 3.4rem));
+  padding-top: clamp(1.6rem, 3.5vw, 2.8rem);
+  padding-bottom: clamp(2rem, 4vw, 3.2rem);
+  min-height: auto;
   display: grid;
-  align-items: center;
-  gap: clamp(1.2rem, 2vw, 2rem);
+  align-items: start;
+  gap: clamp(1rem, 2vw, 1.6rem);
 }
 
 .hero-overlay {
   display: grid;
-  grid-template-columns: 1.2fr 0.9fr;
+  grid-template-columns: fit-content(52rem) fit-content(34rem);
+  justify-content: space-between;
   gap: clamp(1rem, 2vw, 2rem);
+  align-items: stretch;
 }
 
 .description,
@@ -252,7 +254,28 @@ main {
 }
 
 .description {
-  padding: clamp(1.25rem, 2.6vw, 2rem);
+  width: fit-content;
+  max-width: 100%;
+  padding: clamp(1rem, 2vw, 1.6rem);
+}
+
+.hero .description,
+.hero .hero-image-wrap {
+  border: 0;
+  background: transparent;
+  box-shadow: none;
+}
+
+.hero-title {
+  margin: 0;
+}
+
+.hero-copy {
+  margin: 0;
+}
+
+.hero-copy-wrap .hero-copy {
+  max-width: 50ch;
 }
 
 .title {
@@ -309,16 +332,22 @@ main {
 }
 
 .hero-image-wrap {
-  border: 1px solid var(--line);
-  border-radius: var(--radius-lg);
-  padding: clamp(0.8rem, 2vw, 1rem);
-  background: linear-gradient(145deg, var(--bg-soft), transparent);
+  width: fit-content;
+  max-width: 100%;
+  border: 0;
+  border-radius: 0;
+  padding: 0;
+  background: transparent;
+  display: flex;
+  align-items: stretch;
 }
 
 .hero-image {
   border-radius: clamp(12px, 2vw, 16px);
-  width: 100%;
-  aspect-ratio: clamp(0.76, 0.79, 0.84);
+  width: auto;
+  height: 100%;
+  max-width: min(100%, 30rem);
+  aspect-ratio: auto;
   object-fit: cover;
 }
 
@@ -668,6 +697,22 @@ h3 span a {
     grid-template-columns: 1fr;
   }
 
+  .hero {
+    min-height: auto;
+  }
+
+  .description,
+  .hero-image-wrap {
+    width: 100%;
+  }
+
+  .hero-image {
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+    aspect-ratio: 0.8;
+  }
+
   .about-me {
     position: static;
     top: auto;
@@ -735,6 +780,10 @@ h3 span a {
 }
 
 @media (max-width: 520px) {
+  .hero-overlay {
+    gap: 1rem;
+  }
+
   .menu li {
     width: 100%;
   }
